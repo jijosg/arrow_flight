@@ -17,7 +17,7 @@ Nothing here is production-grade; it’s just a sandbox.
     - advertises one dataset (`uk_cities`)
     - implements `do_get` to stream data from a CSV
     - implements a minimal `list_flights`
-- `client/`
+- `src/`
   - Rust Flight client that calls `do_get` and prints the rows
 - `pyflight/`
   - Python Flight client using `pyarrow.flight`
